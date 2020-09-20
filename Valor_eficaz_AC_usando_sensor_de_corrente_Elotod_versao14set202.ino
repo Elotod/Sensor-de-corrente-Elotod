@@ -2,7 +2,8 @@
 // Para usar com Arduino UNO, ESP32 e outros: Programa adaptado por Carlos Re Signor em Setembro de 2018 para capturar as formas
 // de onda do sensor de corrente Elotod.
 // O programa calcula o valor eficaz da corrente e mostra o valor na saida serial e a forma de onda na saide serial modo plotter
-// Este firmware eh usado nos videos 2 e 3 da pagina da Elotod no facebook
+// MUITO CUIDADO AO USAR 220 V. Não faça este experimento sem um adulto por perto, além de você. Ensine ele a desligar a energia eletrica.
+// Este firmware eh usado nos videos 2 e 3 da pagina da Elotod no facebook: https://www.facebook.com/elotod
 
 #if defined(ESP8266) || defined(ESP31B) || defined(ESP32)
 #define TOVOLTAGE 3.3 / 1023.0      // o projetista pode escolher o valor de final de escala e o valor de bits do conversor
